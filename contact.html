@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Tienda de Celulares - Contacto</title>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-xl">Tienda de Celulares</h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:underline">Inicio</a></li>
+                <li><a href="productos.html" class="hover:underline">Productos</a></li>
+                <li><a href="faq.html" class="hover:underline">Preguntas Frecuentes</a></li>
+                <li><a href="about.html" class="hover:underline">Sobre Nosotros</a></li>
+                <li><a href="contact.html" class="hover:underline">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="p-8">
+        <h2 class="text-2xl mb-4">Contáctanos</h2>
+        <form class="bg-white p-6 shadow-md rounded-lg">
+            <div class="mb-4">
+                <label class="block text-gray-700" for="nombre">Nombre:</label>
+                <input class="w-full p-2 border border-gray-300 rounded-md" type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700" for="email">Correo electrónico:</label>
+                <input class="w-full p-2 border border-gray-300 rounded-md" type="email" id="email" name="email" placeholder="tuemail@ejemplo.com">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700" for="mensaje">Mensaje:</label>
+                <textarea class="w-full p-2 border border-gray-300 rounded-md" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
+            </div>
+            <div>
+                <button class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700" type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        <p>© 2024 Tienda de Celulares</p>
+    </footer>
+</body>
+</html>
